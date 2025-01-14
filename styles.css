@@ -3,3 +3,10 @@
   align-items: center;
   column-gap: 15px;
 }
+
+@media (width <= 425px) {
+  .wrapper {
+    flex-flow: column;
+    row-gap: 15px;
+  }
+}
